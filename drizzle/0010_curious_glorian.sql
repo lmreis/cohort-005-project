@@ -1,0 +1,1 @@
+ALTER TABLE `enrollments` ADD `ended_at` text;

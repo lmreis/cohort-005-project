@@ -11,6 +11,7 @@ import {
   MessageSquare,
   Shield,
   Tag,
+  Undo2,
   Users,
   UsersRound,
   Moon,
@@ -96,6 +97,12 @@ const navItems: NavItem[] = [
     label: "Categories",
     to: "/admin/categories",
     icon: <Tag className="size-4" />,
+    roles: [UserRole.Admin],
+  },
+  {
+    label: "Refunds",
+    to: "/admin/refunds",
+    icon: <Undo2 className="size-4" />,
     roles: [UserRole.Admin],
   },
 ];
